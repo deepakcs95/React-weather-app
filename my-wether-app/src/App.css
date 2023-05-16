@@ -1,0 +1,31 @@
+.weather-card {
+  height: 70vh;
+  max-height: 715px;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  overflow: auto;
+  -webkit-box-shadow: 17px 23px 25px -14px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 17px 23px 25px -14px rgba(0, 0, 0, 0.44);
+  box-shadow: 17px 23px 25px -14px rgba(0, 0, 0, 0.44);
+}
+
+@media screen and (max-width: 670px) {
+  .weather-card {
+    flex-direction: column;
+    max-height: initial;
+    height: 100%;
+    overflow: scroll;
+    border-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  .weather-card {
+    flex-direction: column;
+    max-height: initial;
+    height: 100%;
+    overflow: scroll;
+    border-radius: 0px;
+  }
+}
